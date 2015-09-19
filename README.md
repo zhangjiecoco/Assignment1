@@ -3,7 +3,7 @@
 最后HTML结果显示应如下图所示（每个人对应自己的成绩单，故每人的结果应该均不相同）：
 ![screenshot](https://github.com/OOP-JAVA-WHUISS/Assignment1/blob/master/screenshot.png)
 要求：
-1.	独立完成，严禁抄袭，一旦被查重系统MOSS判定为抄袭并无法做出合理解释者，第一次予以警告并记此次作业0分。若再被发现，直接挂科。
-2.	最终请将你所写的Java代码以及爬取结果一同打包至.zip压缩包中，命名格式：学号-姓名-Assignment1。
-3.	所有作业请提交到Github上Assignment1 repository下的submit-homework文件夹下，所有提交至其他地方的作业视作无效。
-4.	Deadline：10月1日 0:00
+1. 独立完成，严禁抄袭，一旦被查重系统MOSS判定为抄袭并无法做出合理解释者，第一次予以警告并记此次作业0分。若再被发现，直接挂科。
+2. 最终请将你所写的Java代码以及爬取结果一同打包至.zip压缩包中，命名格式：学号-姓名-Assignment1。
+3. 所有作业请提交到Github上Assignment1 repository下的submit-homework文件夹下，所有提交至其他地方的作业视作无效。
+4. Deadline：10月1日 0:00
