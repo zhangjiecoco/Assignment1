@@ -9,25 +9,25 @@
 4. Deadline：10月1日 0:00
 5. 
 
-常见疑难杂症：
-1、眼瞎，各种url写错，正确形式如下：
-String url = "http://210.42.121.241/servlet/GenImg";
-2、看不到输出，不知道运行成功没有？
-if(response.ok()){
-	response.receive(new File(fName));
-	System.out.println("ok");//这里加上输出信息
-}
-3、eclipse里面看不到下载的图片啊，怎么办？
-（1）去项目文件夹下看
-（2）刷新下左边的project就会出来
-（3）建议加个img文件夹存储，记得刷新查看，eclipse缓存很严重
-    String fName = "img/test"+Integer.toString(counter)+".png";
-4、怎么模拟登录啊，有验证码呢？
-（0）明显没去好好听课嘛，王爷的课怎么能不好好听呢；
-（1）课堂上讲过了，可以通过在get方法后面再添加一个header方法使用cookie模拟登录，示例：
-HttpRequest response = HttpRequest.get(url).header("Cookie", "JSESSIONID=96A98039A77CB4B256BEAF46ABA5DFD1.tomcat2");
-（2）cookie如何查看就不用我再讲了吧，不会的拖出去打一顿，另外再说明一下，chrome、firefox、IE都是可以F12打开调试窗口查看network的，但是建议用chrome，至于360、猎豹、百度什么的拖出去打死好了
-5、关于教务部网站崩了的若干问题处理
-（1）可以去爬其他网站，不用在教务部网站这棵树上吊死，比如去祸害什么csdn、优酷、爱奇艺什么的
-（2）别去爬一样的网站首页，去爬一些标识性比较强的页面，这样不容易让我们认为你是copy的
-6、之后再补充吧...
+常见疑难杂症：  
+1、眼瞎，各种url写错，正确形式如下：  
+String url = "http://210.42.121.241/servlet/GenImg";  
+2、看不到输出，不知道运行成功没有？  
+if(response.ok()){  
+	response.receive(new File(fName));  
+	System.out.println("ok");//这里加上输出信息  
+}  
+3、eclipse里面看不到下载的图片啊，怎么办？  
+（1）去项目文件夹下看  
+（2）刷新下左边的project就会出来  
+（3）建议加个img文件夹存储，记得刷新查看，eclipse缓存很严重  
+    String fName = "img/test"+Integer.toString(counter)+".png";  
+4、怎么模拟登录啊，有验证码呢？  
+（0）明显没去好好听课嘛，王爷的课怎么能不好好听呢；  
+（1）课堂上讲过了，可以通过在get方法后面再添加一个header方法使用cookie模拟登录，示例：  
+HttpRequest response = HttpRequest.get(url).header("Cookie", "JSESSIONID=96A98039A77CB4B256BEAF46ABA5DFD1.tomcat2");  
+（2）cookie如何查看就不用我再讲了吧，不会的拖出去打一顿，另外再说明一下，chrome、firefox、IE都是可以F12打开调试窗口查看network的，但是建议用chrome，至于360、猎豹、百度什么的拖出去打死好了  
+5、关于教务部网站崩了的若干问题处理  
+（1）可以去爬其他网站，不用在教务部网站这棵树上吊死，比如去祸害什么csdn、优酷、爱奇艺什么的  
+（2）别去爬一样的网站首页，去爬一些标识性比较强的页面，这样不容易让我们认为你是copy的  
+6、之后再补充吧...  
