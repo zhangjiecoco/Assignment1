@@ -24,8 +24,7 @@ if(response.ok()){
     String fName = "img/test"+Integer.toString(counter)+".png";  
 4、怎么模拟登录啊，有验证码呢？  
 （0）明显没去好好听课嘛，王爷的课怎么能不好好听呢；  
-（1）课堂上讲过了，可以通过在get方法后面再添加一个header方法使用cookie模拟登录，示例：  
-HttpRequest response = HttpRequest.get(url).header("Cookie", "JSESSIONID=96A98039A77CB4B256BEAF46ABA5DFD1.tomcat2");  
+（1）提示：通过cookie模拟登录，不给代码了
 （2）cookie如何查看就不用我再讲了吧，不会的拖出去打一顿，另外再说明一下，chrome、firefox、IE都是可以F12打开调试窗口查看network的，但是建议用chrome，至于360、猎豹、百度什么的拖出去打死好了  
 5、关于教务部网站崩了的若干问题处理  
 （1）可以去爬其他网站，不用在教务部网站这棵树上吊死，比如去祸害什么csdn、优酷、爱奇艺什么的  
